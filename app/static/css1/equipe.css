@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #52684D;
+    overflow-y: hidden;
+    height: 10em;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+#divnav{
+    display: flex;
+    flex-direction: column;
+    height: 4em;
+}
+
+a{
+    text-decoration: nome;
+    color: white;
+}
+
+#linksnavbar {
+    display: flex;
+    height: 3em;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 2em;
+    margin-left: 2em;
+    overflow-y: hidden;
+}
+#homenavbar{
+    color: white;
+    margin-top: 1em;
+    font-size: 1.2em;
+    object-fit: cover;
+    transition: transform .15s 
+    ease-out;
+    text-decoration: none;
+}
+#homenavbar:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#cancelamentonavbar{
+    color: white;
+    margin-left: 3em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    object-fit: cover;
+    transition: transform .15s 
+    ease-out;
+    text-decoration: none;
+}
+#cancelamentonavbar:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+#noticiasnavbar{
+    color: white;
+    margin-left: 3em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    object-fit: cover;
+    transition: transform .15s 
+    ease-out;
+    text-decoration: none;
+}
+#noticiasnavbar:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+#equipenavbar{
+    color: white;
+    margin-left: 3em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    object-fit: cover;
+    transition: transform .15s 
+    ease-out;
+    text-decoration: none;
+}
+#equipenavbar:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+#imglogo{
+    width: 6em;
+    height: 6em;
+}
+#logo{
+    width: 6.2em;
+    margin: auto;
+}
+
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFEEEE;
+} */
+
+#editorial {
+    font-size: 1.5em;
+    color: #E74C3C;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 9em;
+}
+#projeto {
+    font-size: 1.5em;
+    color: #E74C3C;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto; 
+    margin-bottom: 10px;
+    margin-top: 3em;
+
+}
+
+.projeto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.projeto img {
+    width: 50%; 
+    height: auto;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: large;
+}
+
+.coluna {
+    width: 48%;
+}
+
+.cards {
+    /*display: grid;*/
+    display:flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    margin-right: 7em;
+    margin-left: 7em;
+    margin-bottom: 5em;
+}
+
+.card{
+    position: relative;
+    width: 330px;
+    height: 260px;
+    background-color: #ccc;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/*.card:nth-child(4){
+    grid-column: 2 / 3;
+} 
+
+.card:nth-child(5) {
+    grid-column: 3 / 4;
+}
+*/
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: "Tinos", serif;
+    font-size: 1.1em;
+}
+
+.card:hover .overlay{
+    opacity: 1;
+}
+
+footer{
+    background-color:#52684D;;
+    height: 15em;
+    display: flex;
+    flex-direction: row;
+}
+
+#logosfooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logoiffooter{
+    width: 9em;
+    margin-left: 7em;
+    margin-top: auto;
+    
+}
+#if{
+    width: 8em;
+    height: 11em;
+    margin-bottom: 1.4em;
+}
+#logosredes{
+    display: flex;
+    flex-direction: row;
+}
+#instagram{
+    height: 2.6em;
+    margin-left: 1em;
+}
+#youtube{
+    height: 2.6em;
+
+}
+#logosfooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#newsletter{
+    margin-right: 9em;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-y:hidden ;
+}
+#titulonewsletter{
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    font-family: "Tinos", serif;
+
+}
+#email{
+    border: none;
+    height: 2em;
+   
+}
+#botaonewsletter{
+    height: 1.7em;
+    width: 5em;
+    background-color: #283824;
+    margin-top: 1em;
+    text-align: center;
+    overflow-y:hidden;
+}
+#fraseenviar{
+    color: white;
+    margin-top: 0.2em;
+    font-family: "Tinos", serif;
+}
+#botaonewsletter:hover{
+    transform: scale(1.05) rotate(0deg);
+    cursor: pointer;
+    
+}
+p{
+    font-family: "Tinos", serif;
+    line-height: 1.5em;
+}
+
+@media (min-width: 480px) and
+(max-width: 768px ){
+
+    #linksnavbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #homenavbar{
+        color: white;
+        font-weight: lighter;
+        font-size: 1.2em;
+    }
+    #cancelamentonavbar{
+        color: white;
+        font-weight: lighter;
+        margin-left: 0.7em;
+        font-size: 1.2em;
+    }
+    #noticiasnavbar{
+        color: white;
+        font-weight: lighter;
+        margin-left: 0.7em;
+        font-size: 1.2em;
+    }
+    #equipenavbar{
+        color: white;
+        font-weight: lighter;
+        margin-left: 0.7em;
+        font-size: 1.2em;
+    }
+    #logoiffooter{
+        width: 7em;
+        margin: auto;
+    }
+    #if{
+        width: 5em;
+        height: 6.5em;
+        margin-top: 4em;
+        margin-left: 2em;
+        
+    }
+    #logosfooter{
+        margin-left: 0em;
+    }
+    #youtube{
+        width: 2em;
+        height: 2em;
+    }
+    #logosredes{
+        margin-left: 2em;
+    }
+    #instagram{
+        width: 2em;
+        height: 2em;
+    }
+    #newsletter{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    #titulonewsletter{
+        color: white;
+        font-size: 1em;
+        margin-bottom: 1em;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #email{
+        border: none;
+        width: 8em;
+       
+    }
+    #botaonewsletter{
+        height: 1.4em;
+        width: 5em;
+        background-color: #283824;
+        margin-top: 1em;
+        text-align: center;
+        overflow-y:hidden;
+    }
+    #fraseenviar{
+        color: white;
+        font-weight: lighter;
+        font-size: 0.8;
+    }
+    #botaonewsletter:hover{
+        transform: scale(1.05) rotate(0deg);
+        cursor: pointer;
+        
+    }
+}
+
+@media (min-width:10px) and
+(max-width: 481px ){
+    #linksnavbar{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 35em;
+    }
+    #logoiffooter{
+        overflow-y: hidden;
+        height: 10em;
+        width: 6.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #logositefooter{
+        display: none;
+    }
+    #if{
+        width: 6em;
+        height: 8em;
+        margin-top: 2em;
+    }
+    #logosredes{
+        margin-top: 4em;
+        height: 3em;
+        margin-bottom: 0em;
+    }
+    #youtube{
+        width: 2.2em;
+        height: 2.2em;
+    }
+    #instagram{
+        width: 2.2em;
+        height: 2.2em;
+    }
+    #newsletter{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+
+    }
+    #email{
+        width: 9em;
+    }
+    #botaonewsletter{
+        height: 1.5em;
+        margin: auto;
+    }
+
+    
+
+} 
+
+

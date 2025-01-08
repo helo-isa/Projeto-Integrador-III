@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipe</title>
-    <link rel="stylesheet" href="equipe.css">
+    <link rel="stylesheet" href="../static/css1/equipe.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h2>Editorial</h2>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <header>
+        <div id="logo">
+            <img id="imglogo" src="../static/imagens/Logo.png" alt="">
+        </div>
+            <ul id="linksnavbar">
+                <a href="index" id="homenavbar">Home</a>
+                <a href="cancelamento" id="cancelamentonavbar">Cancelamento</a>
+                <a href="noticias" id="noticiasnavbar">Notícias</a>
+                <a href="equipe" id="equipenavbar">Equipe</a>
+            </ul>     
+    </header>
+    
+    <h2 id="editorial">EDITORIAL</h2>
     <div class="container">
         <div class="conteudo">
             <div class="coluna">
@@ -19,9 +35,9 @@
         </div>
     </div>
 
-    <h2>Projeto</h2>
+    <h2 id="projeto">PROJETO</h2>
     <div class="projeto">
-        <img src="equipe.png" alt="Ilustração do conceito de liderança de equipe">
+        <img src="../static/imagens/equipe.png" alt="Ilustração do conceito de liderança de equipe">
     </div>
     <div class="container">
         <div class="conteudo">
@@ -36,29 +52,59 @@
 
     <div class="cards">
         <div class="card">
-            <img src="equipe.png" alt="nome">
+            <img src="../static/imagens/equipe.png" alt="nome">
             <div class="overlay">Ana Kelly</div>
         </div>
 
         <div class="card">
-            <img src="equipe.png" alt="nome">
+            <img src="../static/imagens/heloisa.jpg" alt="nome">
             <div class="overlay">Heloísa</div>
         </div>
 
         <div class="card">
-            <img src="equipe.png" alt="nome">
+            <img src="../static/imagens/inae.jpeg" alt="nome">
             <div class="overlay">Inaê</div>
         </div>
 
         <div class="card">
-            <img src="equipe.png" alt="nome">
+            <img src="../static/imagens/arthur.jpeg" alt="nome">
             <div class="overlay">Arthur</div>
         </div>
 
         <div class="card">
-            <img src="equipe.png" alt="nome">
+            <img src="../static/imagens/equipe.png" alt="nome">
             <div class="overlay">Guilherme</div>
         </div>
     </div>
+    
+    <footer>
+        <div id="logoiffooter">
+            <img id="if" src="../static/imagens/logo_ifc_branca.png" alt="" id="imglogoifcfooter">
+        </div>
+        <div id="logosfooter">
+            <div id="logositefooter">
+                <img src="" alt="">
+            </div>
+            <div id="logosredes">
+                <div id="logoyoutubefooter">
+                    <img id="youtube" src="../static/imagens/logoyoutube.png" alt="">
+                </div>
+                <div id="logoinstafooter">
+                    <img id="instagram" src="../static/imagens/logoinsta.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="newsletter">
+            <div id="titulonewsletter">Para mais notícias</div>
+            <div id="email">
+                <input type="email" placeholder="email" id="">
+            </div>
+            <div id="botaonewsletter">
+                <p id="fraseenviar">Enviar</p>
+            </div>
+        </div>
+
+    </footer>
+
 </body>
 </html>

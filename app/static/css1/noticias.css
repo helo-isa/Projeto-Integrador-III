@@ -2,25 +2,36 @@
     margin: 0;
     overflow-x: hidden;
 }
+
 header{
     background-color: #52684D;
+    overflow-y: hidden;
     height: 10em;
     width: 100%;
     align-items: center;
     position: fixed;
+    z-index: 1000;
 }
-#nav{
+
+#divnav{
     display: flex;
     flex-direction: column;
+    height: 4em;
 }
+
+a{
+    text-decoration: nome;
+    color: white;
+}
+
 #linksnavbar {
     display: flex;
+    height: 3em;
     flex-direction: row;
     justify-content: center;
-    padding: 1em;
-    margin-top: 4em;
     margin-right: 2em;
     margin-left: 2em;
+    overflow-y: hidden;
 }
 #homenavbar{
     color: white;
@@ -29,6 +40,7 @@ header{
     object-fit: cover;
     transition: transform .15s 
     ease-out;
+    text-decoration: none;
 }
 #homenavbar:hover{
     cursor: pointer;
@@ -43,6 +55,7 @@ header{
     object-fit: cover;
     transition: transform .15s 
     ease-out;
+    text-decoration: none;
 }
 #cancelamentonavbar:hover{
     cursor: pointer;
@@ -57,6 +70,7 @@ header{
     object-fit: cover;
     transition: transform .15s 
     ease-out;
+    text-decoration: none;
 }
 #noticiasnavbar:hover{
     cursor: pointer;
@@ -71,103 +85,40 @@ header{
     object-fit: cover;
     transition: transform .15s 
     ease-out;
+    text-decoration: none;
 }
 #equipenavbar:hover{
     cursor: pointer;
     transform: scale(1.05); 
 }
-
-#sectionCards {
-    margin-top: 11em;
-    margin-left: 8em;
-    margin-right: 8em;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+#imglogo{
+    width: 6em;
+    height: 6em;
 }
-
-#noticiaprincipal {
-    margin-top: 2em;
-    margin-right: 1em;
-    width: 60%;
+#logo{
+    width: 6.2em;
+    margin: auto;
 }
-#card1 {
-    width: 100%;
-    height: 29em;
-    border-radius: 8px;
-    overflow: hidden;
-    
-}
-#card1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform .25s 
-    ease-out;
-}
-#card1:hover img {
-    transform: scale(1.15) rotate(0deg);
-    cursor: pointer;
-}
-
-#card2 {
-    width: 100%;
-    height: 14em;
-    border-radius: 8px;
-    overflow: hidden;
-    
-}
-#card2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform .25s 
-    ease-out;
-}
-#card2:hover img {
-    transform: scale(1.15) rotate(0deg);
-    cursor: pointer;
-}
-
-#card3 {
-    width: 100%;
-    height: 14em;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-top: 1em;
-    
-}
-#card3 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform .25s 
-    ease-out;
-}
-#card3:hover img {
-    transform: scale(1.15) rotate(0deg);
-    cursor: pointer;
-}
-
-#noticiassecundarias{
-    display: flex;
-    flex-direction: column;
-    margin-right: 16em;
-    margin-top: 2em;
-    width: 50%;
-}
-
 #titulonoticias{
-    margin-top: 2em;
-    font-size: 2em;
-    margin-bottom: 2em;
     text-align: center;
-    color: #E74C3C;
+    font-family: "Tinos", serif;
 }
+
+
+#noticias{
+    margin-top: 10em;
+    margin-right: auto;
+    margin-left: auto;
+    color: #E74C3C;
+    
+}
+
 
 #principaisnoticias{
     margin-left: 8em;
     margin-right: 8em;
+    margin-bottom: 4em;
+    margin-top: 4em;
 }
 #not1{
     display: flex;
@@ -204,7 +155,6 @@ header{
 #foto1 {
     width: 20em;
     height: 20em;
-    border-radius: 8px;
     overflow: hidden;
     
 }
@@ -222,7 +172,6 @@ header{
 #foto2 {
     width: 20em;
     height: 20em;
-    border-radius: 8px;
     overflow: hidden;
     
 }
@@ -240,7 +189,6 @@ header{
 #foto3 {
     width: 20em;
     height: 20em;
-    border-radius: 8px;
     overflow: hidden;
     
 }
@@ -258,7 +206,6 @@ header{
 #foto4 {
     width: 20em;
     height: 20em;
-    border-radius: 8px;
     overflow: hidden;
     
 }
@@ -277,104 +224,123 @@ header{
 #manchete1{
     width: 65%;
     margin-left: 1.5em;
+    font-family: "Tinos", serif;
 }
 #manchete2{
     width: 65%;
     margin-left: 1.5em;
+    font-family: "Tinos", serif;
 }
 #manchete3{
     width: 65%;
     margin-left: 1.5em;
+    font-family: "Tinos", serif;
 }
 #manchete4{
     width: 65%;
     margin-left: 1.5em;
+    font-family: "Tinos", serif;
 }
 #titulomanchete1{
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 1em;
     font-weight: bold;
-}
-#titulomanchete1:hover{
-    color: #E74C3C;
+    color:#E74C3C;
 }
 #titulomanchete2{
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 1em;
     font-weight: bold;
+    color:#E74C3C;
 }
-#titulomanchete2:hover{
-    color: #E74C3C;
-}
+
 #titulomanchete3{
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 1em;
     font-weight: bold;
-}
-#titulomanchete3:hover{
-    color: #E74C3C;
+    color:#E74C3C;
 }
 #titulomanchete4{
     margin-bottom: 1em;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-#titulomanchete4:hover{
-    color: #E74C3C;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color:#E74C3C;
 }
 
 #textomanchete1{
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: justify;
     margin-bottom: 1em;
 }
 #textomanchete2{
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: justify;
     margin-bottom: 1em;
 }
 #textomanchete3{
     text-align: justify;
-    font-size: 1em;
+    font-size: 1.1em;
     margin-bottom: 1em;
 }
 #textomanchete4{
-    font-size: 1em;
+    font-size: 1.1em;
     text-align: justify;
     margin-bottom: 1em;
 }
-
-#vejamais{
-    margin-top: 2em;
-    background-color: #52684D;
-    height: 2.9em;
-    width: 50%;
-    margin-right: auto;
-    margin-left:auto;
-    border-radius: 8px;
-    object-fit: cover;
-    transition: transform .25s 
-    ease-out;
-    margin-bottom: 2em;
+#horamanchete1{
+    font-family: "Tinos", serif;
+    color: #363636;
 }
-#frasevejamais{
-    font-size: 1.2em;
-    color: white;
-    text-align: center;
-    font-weight: lighter;
-    padding: 0.5em;
+#horamanchete2{
+    font-family: "Tinos", serif;
+    color: #363636;
 }
-
-#vejamais:hover{
-    transform: scale(1.05) rotate(0deg);
-    cursor: pointer;
+#horamanchete3{
+    font-family: "Tinos", serif;
+    color: #363636;
+}
+#horamanchete4{
+    font-family: "Tinos", serif;
+    color: #363636;
 }
 
 footer{
-    background-color: #52684D;
+    background-color:#52684D;;
     height: 15em;
     display: flex;
     flex-direction: row;
+}
+
+#logosfooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logoiffooter{
+    width: 9em;
+    margin-left: 7em;
+    margin-top: auto;
+    
+}
+#if{
+    width: 8em;
+    height: 11em;
+    margin-bottom: 1.4em;
+}
+#logosredes{
+    display: flex;
+    flex-direction: row;
+}
+#instagram{
+    height: 2.6em;
+    margin-left: 1em;
+}
+#youtube{
+    height: 2.6em;
+
 }
 #logosfooter{
     display: flex;
@@ -385,8 +351,45 @@ footer{
     margin-right: auto;
 }
 
+#newsletter{
+    margin-right: 9em;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-y:hidden ;
+}
+#titulonewsletter{
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
 
- @media (min-width: 480px) and
+}
+#email{
+    border: none;
+    height: 2em;
+   
+}
+#botaonewsletter{
+    height: 1.7em;
+    width: 5em;
+    background-color: #283824;
+    margin-top: 1em;
+    text-align: center;
+    overflow-y:hidden;
+}
+#fraseenviar{
+    color: white;
+    margin-top: 0.2em;
+}
+#botaonewsletter:hover{
+    transform: scale(1.05) rotate(0deg);
+    cursor: pointer;
+    
+}
+
+
+@media (min-width: 480px) and
 (max-width: 768px ){
     *{
         overflow-x: hidden;
@@ -402,28 +405,24 @@ footer{
     #homenavbar{
         color: white;
         font-weight: lighter;
-        margin-top: 2em;
         font-size: 1.2em;
     }
     #cancelamentonavbar{
         color: white;
         font-weight: lighter;
         margin-left: 0.7em;
-        margin-top: 2em;
         font-size: 1.2em;
     }
     #noticiasnavbar{
         color: white;
         font-weight: lighter;
         margin-left: 0.7em;
-        margin-top: 2em;
         font-size: 1.2em;
     }
     #equipenavbar{
         color: white;
         font-weight: lighter;
         margin-left: 0.7em;
-        margin-top: 2em;
         font-size: 1.2em;
     }
     #sectionCards{
@@ -440,7 +439,6 @@ footer{
         width: 90%;
     }
     #card1{
-        border-radius: 8px;
         height: 25em;
     }
     #card2{
@@ -453,6 +451,67 @@ footer{
     #principaisnoticias{
         margin-left: 2em;
         margin-right: 2em;
+    }
+    #logoiffooter{
+        width: 7em;
+        margin: auto;
+    }
+    #if{
+        width: 5em;
+        height: 6.5em;
+        margin-top: 4em;
+        margin-left: 2em;
+        
+    }
+    #logosfooter{
+        margin-left: 0em;
+    }
+    #youtube{
+        width: 2em;
+        height: 2em;
+    }
+    #logosredes{
+        margin-left: 2em;
+    }
+    #instagram{
+        width: 2em;
+        height: 2em;
+    }
+    #newsletter{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    #titulonewsletter{
+        color: white;
+        font-size: 1em;
+        margin-bottom: 1em;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #email{
+        border: none;
+        width: 8em;
+       
+    }
+    #botaonewsletter{
+        height: 1.4em;
+        width: 5em;
+        background-color: #283824;
+        margin-top: 1em;
+        text-align: center;
+        overflow-y:hidden;
+    }
+    #fraseenviar{
+        color: white;
+        font-weight: lighter;
+        font-size: 0.8;
+    }
+    #botaonewsletter:hover{
+        transform: scale(1.05) rotate(0deg);
+        cursor: pointer;
+        
     }
 }
 
@@ -467,26 +526,8 @@ footer{
     #linksnavbar{
         display: none;
     }
-    #sectionCards{
-        display: flex;
-        flex-direction: column;
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-    #noticiaprincipal{
-        width: 90%;
-        height: 20em;
-        overflow-y: hidden;
-    }
-    #noticiassecundarias{
-        width: 90%;
-    }
-    #card2{
-        height: 20em;
-    }
-    #card3{
-        height: 20em;
-    }
+    
+
     #principaisnoticias{
         margin-left: 1em;
         margin-right: 1em;
@@ -503,5 +544,52 @@ footer{
     #titulomanchete4{
         font-size: 1.3em;
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 35em;
+    }
+    #logoiffooter{
+        overflow-y: hidden;
+        height: 10em;
+        width: 6.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #logositefooter{
+        display: none;
+    }
+    #if{
+        width: 6em;
+        height: 8em;
+        margin-top: 2em;
+    }
+    #logosredes{
+        margin-top: 4em;
+        height: 3em;
+        margin-bottom: 0em;
+    }
+    #youtube{
+        width: 2.2em;
+        height: 2.2em;
+    }
+    #instagram{
+        width: 2.2em;
+        height: 2.2em;
+    }
+    #newsletter{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
 
+    }
+    #email{
+        width: 9em;
+    }
+    #botaonewsletter{
+        height: 1.5em;
+        margin: auto;
+    }
+
+    
 } 

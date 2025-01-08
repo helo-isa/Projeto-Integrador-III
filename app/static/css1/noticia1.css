@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #52684D;
+    overflow-y: hidden;
+    height: 10em;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+#divnav{
+    display: flex;
+    flex-direction: column;
+    height: 4em;
+}
+
+a{
+    text-decoration: nome;
+    color: white;
+}
+
+#linksnavbar {
+    display: flex;
+    height: 3em;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 2em;
+    margin-left: 2em;
+    overflow-y: hidden;
+}
+#homenavbar{
+    color: white;
+    margin-top: 1em;
+    font-size: 1.2em;
+    object-fit: cover;
+    transition: transform .15s 
+    ease-out;
+    text-decoration: none;
+}
+#homenavbar:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#cancelamentonavbar{
+    color: white;
+    margin-left: 3em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    object-fit: cover;
+    transition: transform .15s 
+    ease-out;
+    text-decoration: none;
+}
+#cancelamentonavbar:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+#noticiasnavbar{
+    color: white;
+    margin-left: 3em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    object-fit: cover;
+    transition: transform .15s 
+    ease-out;
+    text-decoration: none;
+}
+#noticiasnavbar:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+#equipenavbar{
+    color: white;
+    margin-left: 3em;
+    margin-top: 1em;
+    font-size: 1.2em;
+    object-fit: cover;
+    transition: transform .15s 
+    ease-out;
+    text-decoration: none;
+}
+#equipenavbar:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+#imglogo{
+    width: 6em;
+    height: 6em;
+}
+#logo{
+    width: 6.2em;
+    margin: auto;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+#titulo{
+    font-size: 2.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+#manchete{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+#autor{
+    font-weight: bolder;
+    margin-bottom: 0.3em;
+}
+
+#imagemcabecalho{
+    margin-top: 2em;
+    margin-right: 8em;
+    margin-left: 8em;
+    text-align: center;
+}
+#texto{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#coluna1{
+    margin-right: 1.3em;
+    text-align: justify;
+    line-height: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#coluna2{
+    text-align: justify;
+    margin-left: 1.3em;
+    line-height: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    background-color:#52684D;;
+    height: 15em;
+    display: flex;
+    flex-direction: row;
+}
+
+#logosfooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logoiffooter{
+    width: 9em;
+    margin-left: 7em;
+    margin-top: auto;
+    
+}
+#if{
+    width: 8em;
+    height: 11em;
+    margin-bottom: 1.4em;
+}
+#logosredes{
+    display: flex;
+    flex-direction: row;
+}
+#instagram{
+    height: 2.6em;
+    margin-left: 1em;
+}
+#youtube{
+    height: 2.6em;
+
+}
+#logosfooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#newsletter{
+    margin-right: 9em;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-y:hidden ;
+}
+#titulonewsletter{
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+
+}
+#email{
+    border: none;
+    height: 2em;
+   
+}
+#botaonewsletter{
+    height: 1.7em;
+    width: 5em;
+    background-color: #283824;
+    margin-top: 1em;
+    text-align: center;
+    overflow-y:hidden;
+}
+#fraseenviar{
+    color: white;
+    margin-top: 0.2em;
+}
+#botaonewsletter:hover{
+    transform: scale(1.05) rotate(0deg);
+    cursor: pointer;
+    
+}
+
+@media (min-width: 480px) and
+(max-width: 768px ){
+    *{
+        overflow-x: hidden;
+        margin:0;
+    }
+    #linksnavbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #homenavbar{
+        color: white;
+        font-weight: lighter;
+        font-size: 1.2em;
+    }
+    #cancelamentonavbar{
+        color: white;
+        font-weight: lighter;
+        margin-left: 0.7em;
+        font-size: 1.2em;
+    }
+    #noticiasnavbar{
+        color: white;
+        font-weight: lighter;
+        margin-left: 0.7em;
+        font-size: 1.2em;
+    }
+    #equipenavbar{
+        color: white;
+        font-weight: lighter;
+        margin-left: 0.7em;
+        font-size: 1.2em;
+    }
+
+    #cabecalho{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #titulo{
+        font-size: 2em;
+    }
+    #manchete{
+        font-size: 1.1em;
+    }
+    #imagemcabecalho{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #texto{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #logoiffooter{
+        width: 7em;
+        margin: auto;
+    }
+    #if{
+        width: 5em;
+        height: 6.5em;
+        margin-top: 4em;
+        margin-left: 2em;
+        
+    }
+    #logosfooter{
+        margin-left: 0em;
+    }
+    #youtube{
+        width: 2em;
+        height: 2em;
+    }
+    #logosredes{
+        margin-left: 2em;
+    }
+    #instagram{
+        width: 2em;
+        height: 2em;
+    }
+    #newsletter{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    #titulonewsletter{
+        color: white;
+        font-size: 1em;
+        margin-bottom: 1em;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #email{
+        border: none;
+        width: 8em;
+       
+    }
+    #botaonewsletter{
+        height: 1.4em;
+        width: 5em;
+        background-color: #283824;
+        margin-top: 1em;
+        text-align: center;
+        overflow-y:hidden;
+    }
+    #fraseenviar{
+        color: white;
+        font-weight: lighter;
+        font-size: 0.8;
+    }
+    #botaonewsletter:hover{
+        transform: scale(1.05) rotate(0deg);
+        cursor: pointer;
+        
+    }
+}
+
+@media (min-width:10px) and
+(max-width: 481px ){
+    *{
+        margin: 0;
+        overflow-x: hidden;
+    }
+    #linksnavbar{
+        display: none;
+    }
+
+    #cabecalho{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    #titulo{
+        font-size: 1.8em;
+    }
+    #imagemcabecalho{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    #texto{
+        margin-left: 1em;
+        margin-right: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    #coluna1{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #coluna2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 35em;
+    }
+    #logoiffooter{
+        overflow-y: hidden;
+        height: 10em;
+        width: 6.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #logositefooter{
+        display: none;
+    }
+    #if{
+        width: 6em;
+        height: 8em;
+        margin-top: 2em;
+    }
+    #logosredes{
+        margin-top: 4em;
+        height: 3em;
+        margin-bottom: 0em;
+    }
+    #youtube{
+        width: 2.2em;
+        height: 2.2em;
+    }
+    #instagram{
+        width: 2.2em;
+        height: 2.2em;
+    }
+    #newsletter{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+
+    }
+    #email{
+        width: 9em;
+    }
+    #botaonewsletter{
+        height: 1.5em;
+        margin: auto;
+    }
+
+    
+
+} 
+
