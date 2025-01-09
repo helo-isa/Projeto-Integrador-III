@@ -126,6 +126,7 @@ a{
 }
 #not1:hover{
     cursor: pointer;
+    
 }
 #not2{
     display: flex;
@@ -241,32 +242,18 @@ a{
     margin-left: 1.5em;
     font-family: "Tinos", serif;
 }
-#titulomanchete1{
+.titulomanchete{
     font-size: 1.8em;
     margin-bottom: 1em;
     font-weight: bold;
     color:#E74C3C;
+    object-fit: cover;
+    transition: color 0.4s ease;
 }
-#titulomanchete2{
-    font-size: 1.8em;
-    margin-bottom: 1em;
-    font-weight: bold;
-    color:#E74C3C;
-}
+.titulomanchete:hover{
+    color:#c93a2a;
 
-#titulomanchete3{
-    font-size: 1.8em;
-    margin-bottom: 1em;
-    font-weight: bold;
-    color:#E74C3C;
 }
-#titulomanchete4{
-    margin-bottom: 1em;
-    font-size: 1.8em;
-    font-weight: bolder;
-    color:#E74C3C;
-}
-
 #textomanchete1{
     font-size: 1.1em;
     text-align: justify;
