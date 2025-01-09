@@ -41,6 +41,7 @@ a{
     transition: transform .15s 
     ease-out;
     text-decoration: none;
+    font-family: "Tinos", serif;
 }
 #homenavbar:hover{
     cursor: pointer;
@@ -56,6 +57,7 @@ a{
     transition: transform .15s 
     ease-out;
     text-decoration: none;
+    font-family: "Tinos", serif;
 }
 #cancelamentonavbar:hover{
     cursor: pointer;
@@ -71,6 +73,7 @@ a{
     transition: transform .15s 
     ease-out;
     text-decoration: none;
+    font-family: "Tinos", serif;
 }
 #noticiasnavbar:hover{
     cursor: pointer;
@@ -86,6 +89,7 @@ a{
     transition: transform .15s 
     ease-out;
     text-decoration: none;
+    font-family: "Tinos", serif;
 }
 #equipenavbar:hover{
     cursor: pointer;
@@ -338,43 +342,6 @@ footer{
     margin-right: auto;
 }
 
-#newsletter{
-    margin-right: 9em;
-    margin-top: auto;
-    margin-bottom: auto;
-    overflow-y:hidden ;
-}
-#titulonewsletter{
-    color: white;
-    font-size: 1.2em;
-    margin-bottom: 1em;
-    justify-content: center;
-    align-items: center;
-
-}
-#email{
-    border: none;
-    height: 2em;
-   
-}
-#botaonewsletter{
-    height: 1.7em;
-    width: 5em;
-    background-color: #283824;
-    margin-top: 1em;
-    text-align: center;
-    overflow-y:hidden;
-}
-#fraseenviar{
-    color: white;
-    margin-top: 0.2em;
-}
-#botaonewsletter:hover{
-    transform: scale(1.05) rotate(0deg);
-    cursor: pointer;
-    
-}
-
 
 @media (min-width: 480px) and
 (max-width: 768px ){
@@ -464,42 +431,7 @@ footer{
         width: 2em;
         height: 2em;
     }
-    #newsletter{
-        margin-left: 2em;
-        margin-right: 2em;
-    }
-
-    #titulonewsletter{
-        color: white;
-        font-size: 1em;
-        margin-bottom: 1em;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    #email{
-        border: none;
-        width: 8em;
-       
-    }
-    #botaonewsletter{
-        height: 1.4em;
-        width: 5em;
-        background-color: #283824;
-        margin-top: 1em;
-        text-align: center;
-        overflow-y:hidden;
-    }
-    #fraseenviar{
-        color: white;
-        font-weight: lighter;
-        font-size: 0.8;
-    }
-    #botaonewsletter:hover{
-        transform: scale(1.05) rotate(0deg);
-        cursor: pointer;
-        
-    }
+   
 }
 
 
@@ -564,19 +496,5 @@ footer{
         width: 2.2em;
         height: 2.2em;
     }
-    #newsletter{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2em;
-
-    }
-    #email{
-        width: 9em;
-    }
-    #botaonewsletter{
-        height: 1.5em;
-        margin: auto;
-    }
-
     
 } 
