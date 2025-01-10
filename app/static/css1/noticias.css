@@ -2,7 +2,6 @@
     margin: 0;
     overflow-x: hidden;
 }
-
 header{
     background-color: #52684D;
     overflow-y: hidden;
@@ -12,18 +11,15 @@ header{
     position: fixed;
     z-index: 1000;
 }
-
 #divnav{
     display: flex;
     flex-direction: column;
     height: 4em;
 }
-
 a{
     text-decoration: nome;
     color: white;
 }
-
 #linksnavbar {
     display: flex;
     height: 3em;
@@ -47,7 +43,6 @@ a{
     cursor: pointer;
     transform: scale(1.05);
 }
-
 #cancelamentonavbar{
     color: white;
     margin-left: 3em;
@@ -63,7 +58,6 @@ a{
     cursor: pointer;
     transform: scale(1.05); 
 }
-
 #noticiasnavbar{
     color: white;
     margin-left: 3em;
@@ -79,7 +73,6 @@ a{
     cursor: pointer;
     transform: scale(1.05); 
 }
-
 #equipenavbar{
     color: white;
     margin-left: 3em;
@@ -107,17 +100,12 @@ a{
     text-align: center;
     font-family: "Tinos", serif;
 }
-
-
 #noticias{
     margin-top: 10em;
     margin-right: auto;
     margin-left: auto;
-    color: #E74C3C;
-    
+    color: #E74C3C;    
 }
-
-
 #principaisnoticias{
     margin-left: 8em;
     margin-right: 8em;
@@ -130,16 +118,14 @@ a{
 }
 #not1:hover{
     cursor: pointer;
-    
 }
 #not2{
     display: flex;
     flex-direction: row;
     margin-top: 2em;
 }
-
 #not2:hover{
-    cursor: pointer;
+     cursor: pointer;
 }
 #not3{
     display: flex;
@@ -156,12 +142,27 @@ a{
 }
 #not4:hover{
     cursor: pointer;
+} 
+#not5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
 }
+#not5:hover{
+    cursor: pointer;
+} 
+#not6{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+#not6:hover{
+    cursor: pointer;
+} 
 #foto1 {
     width: 20em;
     height: 20em;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
 #foto1 img {
     width: 100%;
@@ -177,8 +178,7 @@ a{
 #foto2 {
     width: 20em;
     height: 20em;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 #foto2 img {
     width: 100%;
@@ -194,8 +194,7 @@ a{
 #foto3 {
     width: 20em;
     height: 20em;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
 #foto3 img {
     width: 100%;
@@ -211,8 +210,7 @@ a{
 #foto4 {
     width: 20em;
     height: 20em;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 #foto4 img {
     width: 100%;
@@ -225,96 +223,76 @@ a{
     transform: scale(1.25) rotate(0deg);
     cursor: pointer;
 }
-
-#manchete1{
-    width: 65%;
-    margin-left: 1.5em;
-    font-family: "Tinos", serif;
+#foto5 {
+    width: 20em;
+    height: 20em;
+    overflow: hidden;   
 }
-#manchete2{
-    width: 65%;
-    margin-left: 1.5em;
-    font-family: "Tinos", serif;
+#foto5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .25s 
+    ease-out;
 }
-#manchete3{
-    width: 65%;
-    margin-left: 1.5em;
-    font-family: "Tinos", serif;
+#foto5:hover img {
+    transform: scale(1.25) rotate(0deg);
+    cursor: pointer;
 }
-#manchete4{
+#foto6 {
+    width: 20em;
+    height: 20em;
+    overflow: hidden;   
+}
+#foto6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .25s 
+    ease-out;
+}
+#foto6:hover img {
+    transform: scale(1.25) rotate(0deg);
+    cursor: pointer;
+}
+.manchete{
     width: 65%;
     margin-left: 1.5em;
-    font-family: "Tinos", serif;
 }
 .titulomanchete{
-    font-size: 1.8em;
     margin-bottom: 1em;
+    font-size: 1.8em;
     font-weight: bold;
-    color:#E74C3C;
-    object-fit: cover;
+    font-family: "Tinos", serif;
+    color: #E74C3C;
     transition: color 0.4s ease;
+    text-decoration: none;
 }
 .titulomanchete:hover{
-    color:#c93a2a;
-
+    color: #c93a2a;
 }
-#textomanchete1{
+.textomanchete{
     font-size: 1.1em;
     text-align: justify;
     margin-bottom: 1em;
+    margin-top: 2em;
+    font-family: "Tinos", serif;
 }
-#textomanchete2{
-    font-size: 1.1em;
-    text-align: justify;
-    margin-bottom: 1em;
-}
-#textomanchete3{
-    text-align: justify;
-    font-size: 1.1em;
-    margin-bottom: 1em;
-}
-#textomanchete4{
-    font-size: 1.1em;
-    text-align: justify;
-    margin-bottom: 1em;
-}
-#horamanchete1{
+.horamanchete{
     font-family: "Tinos", serif;
     color: #363636;
 }
-#horamanchete2{
-    font-family: "Tinos", serif;
-    color: #363636;
-}
-#horamanchete3{
-    font-family: "Tinos", serif;
-    color: #363636;
-}
-#horamanchete4{
-    font-family: "Tinos", serif;
-    color: #363636;
-}
-
 footer{
     background-color:#52684D;;
     height: 15em;
     display: flex;
     flex-direction: row;
-}
-
-#logosfooter{
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 4em;
 }
 #logoiffooter{
     width: 9em;
     margin-left: 7em;
-    margin-top: auto;
-    
+    margin-top: auto;   
 }
 #if{
     width: 8em;
@@ -322,8 +300,12 @@ footer{
     margin-bottom: 1.4em;
 }
 #logosredes{
+    width: 8em;
     display: flex;
     flex-direction: row;
+    margin-right: 7em;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #instagram{
     height: 2.6em;
@@ -331,17 +313,16 @@ footer{
 }
 #youtube{
     height: 2.6em;
-
 }
-#logosfooter{
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+#logositefooter{
+    width: 5.7em;
+    height: 7em;
+    margin: auto;
 }
-
+#logofooterimg{
+    width: 6em;
+    height: 6em;
+}
 
 @media (min-width: 480px) and
 (max-width: 768px ){
@@ -406,6 +387,15 @@ footer{
         margin-left: 2em;
         margin-right: 2em;
     }
+    .textomanchete{
+        font-size: 1em;
+    }
+    .titulomanchete{
+        font-size: 1.5em;
+    }
+    .horamanchete{
+        font-size: 0.8em;
+    }
     #logoiffooter{
         width: 7em;
         margin: auto;
@@ -414,27 +404,25 @@ footer{
         width: 5em;
         height: 6.5em;
         margin-top: 4em;
-        margin-left: 2em;
-        
-    }
-    #logosfooter{
-        margin-left: 0em;
+        margin-left: 2em;  
     }
     #youtube{
         width: 2em;
         height: 2em;
     }
     #logosredes{
-        margin-left: 2em;
+        margin-right: 3em;
     }
     #instagram{
         width: 2em;
         height: 2em;
     }
+    #logositefooter{
+        margin-left: 2em;
+        margin-right: auto;
+    }
    
 }
-
-
 
 @media (min-width:10px) and
 (max-width: 481px ){
@@ -445,28 +433,53 @@ footer{
     #linksnavbar{
         display: none;
     }
-    
-
     #principaisnoticias{
         margin-left: 1em;
         margin-right: 1em;
     }
-    #titulomanchete1{
+    #titulonoticias{
+        margin-left: 0;
+        text-align: center;
+        margin-right: 0;
+        
+    }
+    .titulomanchete{
         font-size: 1.3em;
     }
-    #titulomanchete2{
-        font-size: 1.3em;
+    .textomanchete{
+        display: none;
     }
-    #titulomanchete3{
-        font-size: 1.3em;
+    .horamanchete{
+        display: none;
     }
-    #titulomanchete4{
-        font-size: 1.3em;
+    #foto1{
+        width: 15em;
+        height: 15em;
+    }
+    #foto2{
+        width: 15em;
+        height: 15em;
+    }
+    #foto3{
+        width: 15em;
+        height: 15em;
+    }
+    #foto4{
+        width: 15em;
+        height: 15em;
+    }
+    #foto5{
+        width: 15em;
+        height: 15em;
+    }
+    #foto6{
+        width: 15em;
+        height: 15em;
     }
     footer{
         display: flex;
         flex-direction: column;
-        height: 35em;
+        height: 30em;
     }
     #logoiffooter{
         overflow-y: hidden;
@@ -474,19 +487,25 @@ footer{
         width: 6.5em;
         margin-left: auto;
         margin-right: auto;
-    }
-    #logositefooter{
-        display: none;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
     #if{
         width: 6em;
         height: 8em;
         margin-top: 2em;
     }
+    #logositefooter{
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
     #logosredes{
-        margin-top: 4em;
         height: 3em;
-        margin-bottom: 0em;
+        width: 5.5em;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
     }
     #youtube{
         width: 2.2em;
@@ -496,5 +515,4 @@ footer{
         width: 2.2em;
         height: 2.2em;
     }
-    
 } 

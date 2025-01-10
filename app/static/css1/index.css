@@ -477,14 +477,6 @@ footer{
     margin-top: 4em;
 }
 
-#logosfooter{
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
 #logoiffooter{
     width: 9em;
     margin-left: 7em;
@@ -497,8 +489,12 @@ footer{
     margin-bottom: 1.4em;
 }
 #logosredes{
+    width: 8em;
     display: flex;
     flex-direction: row;
+    margin-right: 7em;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #instagram{
     height: 2.6em;
@@ -508,13 +504,14 @@ footer{
     height: 2.6em;
 
 }
-#logosfooter{
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+#logositefooter{
+    width: 5.7em;
+    height: 7em;
+    margin: auto;
+}
+#logofooterimg{
+    width: 6em;
+    height: 6em;
 }
 
 
@@ -609,19 +606,20 @@ footer{
         margin-left: 2em;
         
     }
-    #logosfooter{
-        margin-left: 0em;
-    }
     #youtube{
         width: 2em;
         height: 2em;
     }
     #logosredes{
-        margin-left: 2em;
+        margin-right: 3em;
     }
     #instagram{
         width: 2em;
         height: 2em;
+    }
+    #logositefooter{
+        margin-left: 2em;
+        margin-right: auto;
     }
 }
 
@@ -707,7 +705,7 @@ footer{
     footer{
         display: flex;
         flex-direction: column;
-        height: 35em;
+        height: 30em;
     }
     #logoiffooter{
         overflow-y: hidden;
@@ -715,19 +713,25 @@ footer{
         width: 6.5em;
         margin-left: auto;
         margin-right: auto;
-    }
-    #logositefooter{
-        display: none;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
     #if{
         width: 6em;
         height: 8em;
         margin-top: 2em;
     }
+    #logositefooter{
+        margin-top: 0;
+        margin-bottom: 2em;
+    }
     #logosredes{
-        margin-top: 4em;
         height: 3em;
-        margin-bottom: 0em;
+        width: 5.5em;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
     }
     #youtube{
         width: 2.2em;
