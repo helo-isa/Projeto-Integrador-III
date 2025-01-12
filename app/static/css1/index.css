@@ -422,6 +422,9 @@ a{
     transition: color 0.4s ease;
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+}
 .titulomanchete:hover{
     color: #c93a2a;
 }
