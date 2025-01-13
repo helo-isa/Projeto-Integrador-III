@@ -14,7 +14,10 @@ header{
     align-items: center;
     position: fixed;
     z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
 }
+
 
 a{
     text-decoration: nome;
@@ -96,6 +99,8 @@ a{
     width: 6.2em;
     margin: auto;
 }
+
+
 
 
 #sectionCards {

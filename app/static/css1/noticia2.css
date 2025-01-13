@@ -11,6 +11,7 @@ header{
     align-items: center;
     position: fixed;
     z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #divnav{
@@ -115,14 +116,17 @@ a{
     font-size: 2.6em;
     font-weight: bold;
     margin-bottom: 1em;
+    font-family: "Tinos", serif;
 }
 #manchete{
     font-size: 1.2em;
     margin-bottom: 1em;
+    font-family: "Tinos", serif;
 }
 #autor{
     font-weight: bolder;
     margin-bottom: 0.3em;
+    font-family: "Tinos", serif;
 }
 
 #imagemcabecalho{
@@ -246,6 +250,8 @@ footer{
     #texto{
         margin-left: 2em;
         margin-right: 2em;
+        display: flex;
+        flex-direction: column;
     }
     #logoiffooter{
         width: 7em;
@@ -291,8 +297,9 @@ footer{
     }
 
     #cabecalho{
-        margin-left: 1em;
-        margin-right: 1em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        margin-top: 7em;
     }
     #titulo{
         font-size: 1.8em;
@@ -302,18 +309,15 @@ footer{
         margin-right: 1em;
     }
     #texto{
-        margin-left: 1em;
-        margin-right: 1em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
         display: flex;
         flex-direction: column;
     }
-    #coluna1{
+    .coluna{
         margin-left: 0;
         margin-right: 0;
-    }
-    #coluna2{
-        margin-left: 0;
-        margin-right: 0;
+        font-size: 1em;
     }
     footer{
         display: flex;
