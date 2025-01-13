@@ -139,18 +139,14 @@ a{
     margin-top: 3em;
     margin-bottom: 3em;
 }
-#coluna1{
+.coluna{
     margin-right: 1.3em;
     text-align: justify;
     line-height: 2em;
     font-family: "Tinos", serif;
+    font-size: 1.2em;
 }
-#coluna2{
-    text-align: justify;
-    margin-left: 1.3em;
-    line-height: 2em;
-    font-family: "Tinos", serif;
-}
+
 footer{
     background-color:#52684D;;
     height: 15em;
