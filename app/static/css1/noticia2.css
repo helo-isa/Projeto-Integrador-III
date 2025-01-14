@@ -128,12 +128,14 @@ a{
     margin-bottom: 0.3em;
     font-family: "Tinos", serif;
 }
-
-#imagemcabecalho{
+.imagemcabecalho{
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
     margin-top: 2em;
-    margin-right: 8em;
-    margin-left: 8em;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #texto{
     display: flex;
@@ -243,9 +245,10 @@ footer{
     #manchete{
         font-size: 1.1em;
     }
-    #imagemcabecalho{
+    .imagemcabecalho{
         margin-left: 2em;
         margin-right: 2em;
+        width: 90%;
     }
     #texto{
         margin-left: 2em;
@@ -304,9 +307,11 @@ footer{
     #titulo{
         font-size: 1.8em;
     }
-    #imagemcabecalho{
+    .imagemcabecalho{
         margin-left: 1em;
-        margin-right: 1em;
+        margin-right: 2em;
+        width: 90%;
+        height: 15em;
     }
     #texto{
         margin-left: 1.5em;
